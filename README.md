@@ -60,7 +60,7 @@ Visitors can explore different outdoor activities, including:
 * Accessible focus indicators.
 ## 🛠️ Technologies Used
 
-| Technology    | Purpose                                          |
+| Technology     | Purpose                                          |
 | HTML          | Website structure and content                    |
 | CSS           | Styling, layouts, animations, and responsiveness |
 | Flexbox       | Navigation and component alignment               |
