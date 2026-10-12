@@ -1728,7 +1728,12 @@ footer a {
     .destination-card img,
     .card img {
         height: 190px;
-    } }
+    } }.destination-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
 img {
     max-width: 100%;
     height: auto;
