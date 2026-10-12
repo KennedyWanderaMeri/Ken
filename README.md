@@ -168,3 +168,4 @@ This project is intended for educational and demonstration purposes.
 Before using the website commercially, review the licensing requirements for all photographs, fonts, icons, and other third-party resources.
 ### 🌍 NatureScape Adventures
 *Discover Nature. Experience Adventure. Protect Our Planet.*
+let as perserve our environment.
