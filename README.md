@@ -150,7 +150,7 @@ The website can be improved further by adding:
 * Customer reviews and testimonials.
 * A travel packages and pricing section.
 * A photo gallery with lightbox effects.
-
+* WhatsApp contact integration.
 * An online payment system.
 * Search engine optimization.
 * A custom domain and professional business email.
