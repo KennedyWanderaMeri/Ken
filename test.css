@@ -8,10 +8,10 @@
     --primary-dark: rgb(172, 24, 198);
     --primary-light: white;
     --accent: #9ea7a5;
-    --dark: rgb(4, 66, 50);
+    --dark:brown;
     --text: black;
     --white: rgb(5, 84, 36);
-    --light: rgb(6, 79, 43);
+    --light:grey;
     --border: black;
 
     --heading-font: "Playfair Display", Georgia, serif;
@@ -577,20 +577,22 @@ select:focus-visible {
 
 .destination-card {
     overflow: hidden;
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
     border-radius: var(--radius);
     background: var(--white);
     transition: transform var(--transition),
                 box-shadow var(--transition);
+                
 }
 
 .destination-card:hover {
     transform: translateY(-9px);
     box-shadow: var(--shadow);
+    
 }
 
 .card-image {
-    height: 245px;
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -605,7 +607,7 @@ select:focus-visible {
 }
 
 .card-image::after {
-    content: "";
+    content:normal;
     position: absolute;
     inset: 45% 0 0;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.25));
@@ -635,7 +637,7 @@ select:focus-visible {
     width: 37px;
     height: 37px;
     border: none;
-    border-radius: 50%;
+    border-radius: 20%;
     background: var(--white);
     color: var(--primary);
     font-size: 16px;
@@ -650,7 +652,7 @@ select:focus-visible {
 }
 
 .card-content {
-    padding: 22px;
+    padding: 12%;
 }
 
 .location {
@@ -1094,7 +1096,7 @@ select:focus-visible {
    11. TABLET RESPONSIVENESS
 ===================================== */
 
-@media (max-width: 1000px) {
+@media (max-width: 2000px) {
 
     .nav-links {
         gap: 16px;
@@ -1570,7 +1572,24 @@ footer a {
         min-height: 60vh;
         min-height: 60svh;
     }
+}@media (max-width: 2000px) {
+    .destinations,
+    .destination-grid,
+    .destination-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .destination-card img,
+    .destination-grid .card img,
+    .destination-cards .card img {
+        height: 20px;
+        
+    }
 }
+
 
 /* =====================================
    MOBILE PHONES
@@ -1629,6 +1648,8 @@ footer a {
     .cards {
         grid-template-columns: minmax(0, 1fr);
         gap: 20px;
+        display: block;
+        justify-content: center;
     }
 
     .destination-card img,
