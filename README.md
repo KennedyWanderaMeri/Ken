@@ -169,3 +169,4 @@ Before using the website commercially, review the licensing requirements for all
 No deplication of this website without my permission.
 ### 🌍 NatureScape Adventures
 *Discover Nature. Experience Adventure. Protect Our Planet.*
+let as perserve our environment.
