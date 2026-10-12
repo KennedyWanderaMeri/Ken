@@ -152,7 +152,7 @@ The website can be improved further by adding:
 * A photo gallery with lightbox effects.
 * WhatsApp contact integration.
 * An online payment system.
-
+* Search engine optimization.
 * A custom domain and professional business email.
 ## 🌱 Environmental Mission
 NatureScape Adventures promotes responsible tourism and encourages visitors to appreciate and protect the natural environment.
