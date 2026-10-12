@@ -1734,3 +1734,7 @@ footer a {
     height: 240px;
     object-fit: cover;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
