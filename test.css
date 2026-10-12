@@ -522,6 +522,7 @@ select:focus-visible {
 
 .destinations {
     background: var(--light);
+    width: 20%;
 }
 
 .section-heading {
@@ -530,6 +531,7 @@ select:focus-visible {
     align-items: flex-end;
     gap: 25px;
     margin-bottom: 45px;
+
 }
 
 .section-heading .section-label,
@@ -1423,7 +1425,7 @@ html {
 body {
     width: 100%;
     margin: 0;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 
 img,
@@ -1471,7 +1473,7 @@ nav ul {
 .hero h1 {
     font-size: clamp(2rem, 5vw, 4.5rem);
     line-height: 1.15;
-    overflow-wrap: anywhere;
+    overflow-wrap:anywhere;
 }
 
 .hero p {
@@ -1483,7 +1485,7 @@ nav ul {
 h1,
 h2,
 h3 {
-    overflow-wrap: break-word;
+    overflow-wrap:break-word;
 }
 
 section {
@@ -1497,6 +1499,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 25px;
+overflow: visible;
 }
 
 .destination-card,
@@ -1580,7 +1583,37 @@ footer a {
         gap: 20px;
         display: flex;
         justify-content: space-around;
-    }
+        width: 100%;
+        min-width: 0%;
+        object-fit:cover;
+            }
+        /* Example CSS styling for the card content area */
+.destination-card {
+  background-color: #0d4a22; /* Your dark green color */
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  padding: 20px;
+  color: #ffffff;
+  /* Make sure height is NOT fixed (remove height: Xpx if set) */
+  flex-grow: 1; 
+}
+
+.card-content h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+  color: #ffcc00; /* Adjust color as needed for visibility */
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #e2e2e2;
+  margin-bottom: 15px;
+}
 
     .destination-card img,
     .destination-grid .card img,
