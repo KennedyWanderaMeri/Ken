@@ -72,11 +72,11 @@ Visitors can explore different outdoor activities, including:
 ## 📂 Project Structure
 The project contains two main files:
 nature-tourism/
-├── test.html       # Main website structure
+├── index.html       # Main website structure
 ├── test.css        # Website styling and responsive layouts
 └── README.md        # Project documentation
 ### File Descriptions
-**`test.html`**
+**`index.html`**
 Contains the website's structure, navigation menu, hero section, destination gallery, adventure experiences, contact form, and footer.
 **`test.css`**
 Contains the visual design, colors, typography, layouts, hover effects, animations, and responsive styling.
@@ -91,7 +91,7 @@ Alternatively, download the project files directly to your computer.
 ### Step 2: Open the Project
 Open the project folder in Visual Studio Code.
 Ensure that the following files are present:
-* `test.html`
+* `index.html`
 * `test.css`
 ### Step 3: Check the CSS Connection
 Inside the `<head>` section of `test.html`, ensure that the stylesheet is connected:
@@ -126,7 +126,7 @@ You can publish the website online using GitHub Pages.
 Create a new repository on GitHub for your tourism website.
 ### Step 2: Upload Your Files
 Upload the following files to the repository's root directory:
-test.html
+index.html
 test.css
 README.md
 ### Step 3: Enable GitHub Pages
