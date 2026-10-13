@@ -1702,7 +1702,27 @@ footer a {
     }
 }
 
+/* =====================================
+   SMALL MOBILE PHONES
+   Screens up to 380px wide
+===================================== */
 
+@media screen and (max-width: 380px) {
+
+    nav ul {
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: 28px 14px;
     }
 
     .destination-card img,
